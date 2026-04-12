@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: atualiza-contrato
+  threads:
+    virtual:
+      enabled: true
+server:
+  port: 8082

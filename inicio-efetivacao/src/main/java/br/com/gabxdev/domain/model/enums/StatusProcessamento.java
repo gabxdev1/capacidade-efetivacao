@@ -1,0 +1,13 @@
+package br.com.gabxdev.domain.model.enums;
+
+public enum StatusProcessamento {
+    INICIO_EFETIVAO_SUCESSO,
+    INICIO_EFETIVACAO_ERRO,
+
+    ATUALIZA_LIMITE_AUTORIZADOR_SUCESSO,
+    ATUALIZA_LIMITE_AUTORIZADOR_ERRO,
+
+    ATUALIZA_CONTRATO_SUCESSO,
+    ATUALIZA_CONTRATO_ERRO
+}
+
