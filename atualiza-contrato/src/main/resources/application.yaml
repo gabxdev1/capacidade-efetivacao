@@ -6,3 +6,7 @@ spring:
       enabled: true
 server:
   port: 8082
+  tomcat:
+    threads:
+      min-spare: 15
+      max: 200

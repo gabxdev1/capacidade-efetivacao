@@ -3,6 +3,7 @@ package br.com.gabxdev.infra.integration.repository;
 import br.com.gabxdev.infra.integration.repository.entity.SituacaoProcessamentoEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.request.async.DeferredResult;
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbTable;
 import software.amazon.awssdk.enhanced.dynamodb.Key;
 import software.amazon.awssdk.enhanced.dynamodb.model.IgnoreNullsMode;
